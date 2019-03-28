@@ -1,0 +1,27 @@
+{
+  "name": "kadokweb/router",
+  "description": "Kadokweb Router is a fast and uncomplicated route manager!",
+  "keywords": [
+    "KadokWeb",
+    "Router",
+    "Route",
+    "Routes"
+  ],
+  "homepage": "https://www.kadokweb.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Doka B. Silva",
+      "email": "doka@kadokweb.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "KadokWeb\\Router\\": "src"
+    }
+  }
+}
